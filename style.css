@@ -31,13 +31,31 @@ header p{
     font-size: 1rem;
 }
 
-main {
-    max-width: 800px;
-    margin: 0%
+form {
+    margin: 20px;
 }
 
-.search-section{
+input {
+    padding: 12px;
+    width: 250px;
+    border: 1px solid oklch(90.973% 0.03416 282.034);
+    border-radius: 8px;
+}
+
+button {
+    padding: 12px 20px;
+    background-color:oklch(54.895% 0.12291 303.919);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#result {
     background-color: white;
-    padding: 30px;
-    
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: left;
 }
