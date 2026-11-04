@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+
+body{
+    font-family:serif;
+    font-weight: 300;
+    font-size: xx-large;
+    font-style: unset;
+    background-color: oklch(91.432% 0.03718 258.414);
+    color: oklch(29.52% 0.17242 280.483);
+    line-height: 1.2;
+}
+
+header{
+    text-align: center;
+    padding: 35px 20px;
+    background-color:oklch(67.3% 0.182 276.935);
+    color: white;
+}
+
+header h1{
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+header p{
+    font-size: 1rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0%
+}
+
+.search-section{
+    background-color: white;
+    padding: 30px;
+    
+}
